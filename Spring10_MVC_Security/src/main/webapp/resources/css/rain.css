@@ -1,0 +1,55 @@
+@keyframes rainbowAnimation {
+  0%, 100% {
+    background-color: #f06d06;
+  }
+  14% {
+    background-color: #ff0000;
+  }
+  28% {
+    background-color: #ff7f00;
+  }
+  42% {
+    background-color: #ffff00;
+  }
+  57% {
+    background-color: #00ff00;
+  }
+  71% {
+    background-color: #0000ff;
+  }
+  85% {
+    background-color: #4b0082;
+  }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  animation: rainbowAnimation 1s linear infinite;
+  
+  
+      
+    @keyframes rainbow-slide {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+.navbar {
+  background: linear-gradient(to right, 
+    green, blue, indigo);
+  background-size: 200% 100%;
+  animation: rainbow-slide 1s linear infinite;
+}
+
+div{
+	 background: linear-gradient(to right, 
+    green, blue, indigo);
+  background-size: 200% 100%;
+  animation: rainbow-slide 1s linear infinite;
+}
